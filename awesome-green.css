@@ -194,6 +194,11 @@
  color: #2f845e;
 }
 
+/* 加粗 */
+#write strong {
+  color: #2f845e;
+}
+
 /* 脚注上标 */
 #write .md-footnote {
  font-weight: bold;
