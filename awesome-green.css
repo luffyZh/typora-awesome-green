@@ -51,16 +51,16 @@
  background: #2f845e;
  color: #ffffff;
  padding: 3px 10px 1px;
- border-top-right-radius: 3px;
- border-top-left-radius: 3px;
+ border-top-right-radius: 4px;
+ border-top-left-radius: 2px;
  margin-right: 3px;
 }
 #write h2:after {
  display: inline-block;
  content: "";
  vertical-align: bottom;
- border-bottom: 36px solid #efffe9;
- border-right: 20px solid transparent;
+ border-bottom: 32px solid #efffe9;
+ border-right: 18px solid transparent;
 }
 #write h3 {
   font-size: 1.2rem;
@@ -134,6 +134,10 @@
   content: '➢ '
 }
 
+#write strong {
+  color: #2f845e;
+}
+
 /*行内代码*/
 #write p code,
 #write li code {
@@ -192,11 +196,6 @@
 /* 行内代码 */
 #write span code, #write li code {
  color: #2f845e;
-}
-
-/* 加粗 */
-#write strong {
-  color: #2f845e;
 }
 
 /* 脚注上标 */
@@ -277,7 +276,7 @@ margin-left: -1.3em;
 background-color: #f8f8f8;
 }
 #write pre.md-meta-block {
-  padding: 1rem;
+padding: 1rem;
   font-size: 85%;
   line-height: 1.45;
   background-color: #f7f7f7;
@@ -393,4 +392,8 @@ header, .context-menu, .megamenu-content, footer{
 .menu-item-container a.menu-style-btn {
   background-color: #f5f8fa;
   background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+#write input[type="checkbox"] {
+  margin-top: 13px;
 }
