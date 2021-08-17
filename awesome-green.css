@@ -131,7 +131,11 @@
 }
 
 #write a::before {
-  content: '➢ '
+  position: relative;
+  content: '➢';
+  font-size: 26px;
+  margin-right: 4px;
+  top: 2px;
 }
 
 #write strong {
