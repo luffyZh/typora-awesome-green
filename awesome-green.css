@@ -55,7 +55,23 @@
  border-top-left-radius: 2px;
  margin-right: 3px;
 }
-#write h2:after {
+#write h2 span {
+  display: inline-block;
+  font-weight: bold;
+  background: #2f845e;
+  color: #ffffff;
+  padding: 3px 10px 1px 0px;
+  border-top-right-radius: 4px;
+  margin-right: 1px;
+ }
+#write h2::before {
+  display: inline-block;
+  content: '§';
+  padding: 3px 10px 1px;
+  background-image: linear-gradient(to right, #3f746e, #2f845e);
+  color: #fff;
+}
+#write h2::after {
  display: inline-block;
  content: "";
  vertical-align: bottom;
